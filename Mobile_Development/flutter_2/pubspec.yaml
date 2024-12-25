@@ -30,14 +30,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  uuid: ^3.0.7
-  intl: ^0.18.0
-    
-
-
+ 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  uuid: ^3.0.7
+  intl: ^0.18.0
+  syncfusion_flutter_charts: ^20.3.47
 
 dev_dependencies:
   flutter_test:
@@ -63,7 +62,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/W7-S2/
+    - assets/W7-S2/chill_guy.jpg
+    
+
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
